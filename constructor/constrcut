@@ -1,0 +1,15 @@
+when object created:
+->memory creation as well as memory inalization
+->if we don't write any construcotr compiler will provied default constructor
+note: if we provied explicitly parameterized constructor and create object with no parameter in this case compiler will not provied default constrcutor it will genrated an error
+
+1)default constructor:
+->it is called as non parameter constructor does not accept any parameter
+->if we explicitly don't write any constructor it is exicute
+
+2)parameterized constrctor:
+->it contain one or more argument
+
+3)copy constrcutor
+->used to copy of one class object and initalize it by using another object
+->take single argument called refreance to another object
