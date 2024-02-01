@@ -1,0 +1,20 @@
+malloc:
+->it is fn
+->needed libraray
+->it is not call constructor
+->it is return void pointer typecast is required in c++
+->upon failure return zero 
+->memory inalization not happen
+->malloc fn overloading not possible
+->sizeof opeartor reqired
+
+new:
+->it is operator
+->lib not required
+->memory inalization is possible
+->it is return exect pointer
+->it is called constructor
+->sizeof opeartor is not required
+->upon failure return bed_alloc(execuption)
+->type cast not required
+

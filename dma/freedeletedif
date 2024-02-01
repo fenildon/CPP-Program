@@ -1,0 +1,9 @@
+free():
+->it is fn
+->it is not call distrucotr
+->free fn overloading not possivble
+
+delete
+->it is operator
+->overloading is possible
+->it is call distroctor

@@ -1,0 +1,20 @@
+__attribute__((constructor))
+void Constructor_before_main ()
+{
+  printf ("Before main\n");
+}
+
+
+void main ()
+{
+  printf ("In main\n");
+}
+
+
+__attribute__((destructor))
+void Constructor_after_main ()
+{
+  printf ("After main\n");
+}
+
+
