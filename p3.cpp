@@ -1,14 +1,15 @@
+//io formated flag
 #include<iostream>
 using namespace std;
-void sum(int);
-void sum(int&);
 int main()
 {
-int x=10;
-sum(x);//conused compiler unable to decided x trated as refrance or constan su(10) work
+int x;
+cout << "enter the number" << endl;
+cin >> x;
+cout << showbase;// show base for oct =0777  ,for hex=0xffff;
+cout << uppercase;
+cout << showpos;//show postive sign
+cout << "hexa = " << hex << x << endl;
+cout << "octal= " << oct << x << endl;
+cout << "dec= "<<dec<<x<<endl;
 }
-void sum(int x)
-{}
-void sum(int &x)
-{}
-
